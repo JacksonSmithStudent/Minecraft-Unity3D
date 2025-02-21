@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    int[] matCounts = new int[] { 0, 0, 0, 0 };
+    int[] matCounts = new int[] { 0, 0, 0, 0, 0 };
 
     public BlockType[] matTypes;
     public Image[] invImgs;
@@ -33,6 +33,8 @@ public class Inventory : MonoBehaviour
             SetCur(2);
         else if(Input.GetKeyDown(KeyCode.Alpha4))
             SetCur(3);
+        else if(Input.GetKeyDown(KeyCode.Alpha5))
+            SetCur(4);
     }
 
     void SetCur(int i)

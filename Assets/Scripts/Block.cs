@@ -39,4 +39,4 @@ public class Block
     };
 }
 
-public enum BlockType {Air, Dirt, Grass, Stone, Trunk, Leaves}
+public enum BlockType {Air, Dirt, Grass, Stone, Trunk, Leaves,}
